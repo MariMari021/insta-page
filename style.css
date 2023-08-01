@@ -1,0 +1,91 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3363B5;
+}
+
+@font-face {
+    font-family: 'outer-sans';
+    src: url(webfonts/bold/made-outer-sans-bold.ttf);
+
+}
+
+.imagem {
+    width: 100%;
+    text-align: center;
+}
+
+.imagem img {
+    margin: 30px;
+    width: 200px;
+}
+
+.meio {
+    text-align: center;
+    font: 500 37px 'outer-sans';
+    color: white;
+}
+
+.elementos {
+    display: grid;
+    text-align: center;
+    margin: 35px;
+    font: 300 27px 'outer-sans';
+    justify-content: center;
+
+}
+
+a {
+    text-align: center;
+    color: #3363B5;
+    text-decoration: none;
+}
+
+.botoes {
+    display: inherit;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 27px;
+}
+
+footer {
+    text-align: center;
+
+}
+
+footer img {
+    width: 57px;
+    margin: 5px 15px;
+    padding-bottom: 3%;
+}
+
+@media screen and (max-width:520px) {
+    .botoes {
+        width: 320px;
+    }
+
+    .meio {
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (max-width:617px) {
+    .meio {
+        font-size: 27px;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+    .botoes {
+        width: 310px;
+    }
+}
