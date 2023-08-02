@@ -86,7 +86,7 @@ footer img {
     }
 
     .elementos {
-        font-size: 19px;
+        font-size: 15px;
     }
 
 }
@@ -96,7 +96,7 @@ footer img {
         width: 93px;
     }
     .meio {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .botoes {
@@ -106,7 +106,7 @@ footer img {
     }
 
     .elementos {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     footer img {
@@ -130,12 +130,16 @@ padding-top: 5%;
     }
 
     .meio {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     footer img {
         width: 30px;
         margin: 2px 7px;
 
+    }
+
+    .elementos {
+        font-size: 15px;
     }
 }
